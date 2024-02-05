@@ -1,0 +1,9 @@
+.info:hover{ 
+    transform: scale(1.03);
+    transition: transform ease-in 0.5s;
+}
+
+.links a:hover{ 
+    color:white;
+    background-color: rgb(21, 98, 240);
+}
