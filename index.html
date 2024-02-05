@@ -12,26 +12,27 @@
         height: 30rem;
         width: 30rem;
         object-fit: cover;
-        margin-bottom: 16px;
+        margin-bottom: 17px;
+        margin-top: 17px;
       }
     </style>
 </head>
 <body class="px-5">
-    <nav class="container shadow-sm fixed-top fixed-top bg-white d-flex justify-content-between align-items-center py-2 text-center">
+    <nav class="px-5 shadow-sm fixed-top fixed-top bg-white d-flex justify-content-between align-items-center py-2 text-center">
       <div>
-        <h1>MyPortfolio</h1>
+        <h1 class="text-muted">MyPortfolio</h1>
       </div>
       <div class="d-flex justify-content-between fs-4 links">
-        <a href="#about" id="aboutme" class="px-2 text-decoration-none border border-info rounded">About Me</a>
-        <a href="#projects" id="myprojects" class="px-2 text-decoration-none border border-info mx-3 rounded">Projects</a>
+        <a href="#about" id="aboutme" class="px-3 py-1 text-decoration-none border border-info rounded">About Me</a>
+        <a href="#projects" id="myprojects" class="px-3 py-1 text-decoration-none border border-info mx-3 rounded">Projects</a>
       </div>
       </nav>
       <div style="height:56px"></div>
    
   <div class="container mt-3 d-flex flex-md-column">
-    <section class="bg-info bg-opacity-10 my-5 d-flex align-items-center gap-5 w-100 flex-md-column flex-xl-row border border-info p-5 rounded">
-      <img src="/1707060868568.jpg" alt="" class="rounded">
-      <p class="fs-5 border border-info p-3 rounded text-center d-md-block">Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+    <section class="d-flex align-items-center gap-5 w-100 flex-md-column flex-xl-row p-5 rounded">
+      <img src="/1707060868568.jpg" alt="" class="rounded-circle">
+      <p class="bg-primary text-light fs-5 border border-info p-3 rounded text-center d-md-block">Lorem ipsum dolor sit amet consectetur adipisicing elit. 
         Cum iste officiis corrupti quos blanditiis amet sit commodi 
         officia excepturi optio, quis pariatur, at ex dolores? 
         Unde suscipit adipisci quaerat magni.
@@ -43,9 +44,9 @@
      </section>
   
     <section class="text-center py-2 my-1" id="about">
-      <h1 class="my-5 py-3">WANT TO KNOW ABOUT ME?</h1>
-      <div class="bg-warning bg-opacity-10 d-flex align-items-center gap-5 w-100 flex-md-column flex-xl-row border border-warning rounded p-5">
-        <p class="fs-5 p-3 border border-warning rounded">
+      <h1 class="py-3 text-primary">WANT TO KNOW ABOUT ME?</h1>
+      <div class="d-flex align-items-center gap-5 w-100 flex-md-column flex-xl-row p-5">
+        <p class="bg-primary text-light fs-5 p-3 border border-primary rounded">
           Lorem ipsum dolor sit amet consectetur adipisicing elit. 
           Cum iste officiis corrupti quos blanditiis amet sit commodi 
           officia excepturi optio, quis pariatur, at ex dolores? 
@@ -55,17 +56,31 @@
           Autem eos placeat illo! Consequatur soluta quas itaque asperiores. Ab qui aspernatur omnis eius 
           voluptates temporibus, ullam eum.
         </p>
-        <img src="/1707081765976.jpg" alt="" class="rounded">
+        <img src="/1707081765976.jpg" alt="" class="rounded-circle">
+      </div>
+      <div class="container">
+        <h2 class="p-3 m-3 text-primary">My Skills</h2>
+        <div class="row gap-3">
+          <div class="p-2 col card align-self-start bg-primary">
+            <h3 class="text-light">Web Development</h3>
+          </div>
+          <div class="p-2 col card align-self-center bg-primary">
+            <h3 class="text-light">Data Science and Robotics</h3>
+          </div>
+          <div class="p-2 col card align-self-end bg-primary">
+            <h3 class="text-light">Game Development</h3>
+          </div>
+        </div>
       </div>
     </section>
 
-    <section class="py-5 my-5 text-center" id="projects">
-      <h1 class="my-5 py-3">MY PROJECTS</h1>
+    <section class="py-5 text-center" id="projects">
+      <h1 class="py-3 text-primary">MY PROJECTS</h1>
       <div>
         <div>
           <div class="row">
             <div class="col-6">
-              <div class="card">
+              <div class="card border-primary">
                 <div class="card-body info">
                   <h3 class="card-title">FRIENDLY CHATBOT</h3>
                   <img src="/—Pngtree—smart chatbot cartoon clipart_9015126.png" alt="" class="w-50 h-50">
@@ -75,7 +90,7 @@
               </div>
             </div>
             <div class="col-6">
-              <div class="card">
+              <div class="card border-primary">
                 <div class="card-body info">
                   <h3 class="card-title">SLMS</h3>
                   <img src="/pngwing.com (1).png" alt="" class="w-50 h-50">
@@ -87,7 +102,7 @@
           </div>
           <div class="row my-3">
             <div class="col-12">
-              <div class="card">
+              <div class="card border-primary">
                 <div class="card-body info">
                   <h3 class="card-title">E-COMMERCE WEBSITE</h3>
                   <img src="/e-commerce.png" alt="" class="w-50 h-50">
@@ -100,7 +115,7 @@
           <div>
             <div class="row">
               <div class="col-6">
-                <div class="card">
+                <div class="card border-primary">
                   <div class="card-body info">
                   <h3 class="card-title">QUIZ APP</h3>
                   <img src="/quiz.png" alt="" class="w-50 h-50">
@@ -110,7 +125,7 @@
               </div>
             </div>
             <div class="col-6">
-              <div class="card">
+              <div class="card border-primary">
                 <div class="card-body info">
                   <h3 class="card-title">FYLO LANDING PAGE</h3>
                   <img src="/fylo.png" alt=""class="w-50 h-50">
